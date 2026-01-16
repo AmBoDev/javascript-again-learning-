@@ -34,3 +34,16 @@ if(true){
     let a=2;
 }
 console.log(a);
+// decleration and intialization 
+// there are mainly two parts in the decleration and intialization
+let x=20;// let x is a decleration part and =20 is the intialization part
+console.log(x);
+// we can define the let and var keyword without the intialization if we not intilized the value 
+// it will gonna print the undefiined value.
+let y;
+console.log(y);
+var z;
+console.log(z);
+//but the const variable can not  be declared without using the intialization. 
+const l=20;
+console.log(l);
