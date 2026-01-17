@@ -40,6 +40,39 @@ const student={
     height:"6ft"
 }
 console.log(student.name);
+//conversion in the js 
+// uisng the + operator we can convert the a numeric value into the string .
+let na="aman" +20;
+console.log(na);// what it return it return a string 
+// we the other operataor it does not convert it 
+let nam="30"*45;
+console.log(nam);// output-1350( it return a number)
+// there are three different method through which we can convert the number into the string.
+//parseInt(),parseFloat(),Number()
+console.log(parseInt("101", 2)); // 5
+// parseInt-convert a string into an integer
+console.log(parseInt("123abc"));//it will return the 123 only 
+// same there is a number function which return the number only.
+console.log(parseInt("34.5"));//output-34
+console.log(parseFloat("34.5"));//putput-34.5;
+
+console.log(Number("34.5"));//output-34.5
+var cd="name"*20;
+console.log(cd);
+// a literal means writing a value  directly in the code withut creating an onstrucotr and function.
+let name="Aman";
+//string literal
+// template literal- it is used to write the string using backtricks.
+//using the template literal we can wwrite themulti line code using the backtrick
+let aman=`my name is amn
+singh bohra and that a multi line code i am writing `// so here we dont needto use the \n for making the next 
+// line we simply achieve it using the backtrick 
+console.log(aman)
+let age=21;
+age="my current age is 21";
+// now we are learning the expression interpolationn (inserting a value and expression inside the string)
+console.log(`my name is aman and my age is ${age}`);
+//here we are using the backtricks whole write the variable inside the string.
 
 
 
